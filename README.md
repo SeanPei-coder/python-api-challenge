@@ -107,4 +107,16 @@ There is a weak negative relationship between latitude and wind speed for southe
 
 ## Part II - VacationPy
 I created a heat map that displays the humidity for every city from the part I of the work.
-![alt text](
+![alt text](https://github.com/SeanPei-coder/python-api-challenge/blob/main/VacationPy/Output/output1.png)
+
+Then, I narrow down the DataFrame:
+
+200 < Max Temp <300 
+
+Wind Speed < 7 MPH
+
+Cloudiness < 70%
+                            
+I Use Google Places API to find the first hotel for each city located within 5000 meters of the coordinates, and plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+![alt text](https://github.com/SeanPei-coder/python-api-challenge/blob/main/VacationPy/Output/output2.png)
